@@ -22,6 +22,8 @@ document.body.style.filter = "blur(1rem)";
 
 }
 async function displayMain() {
+document.body.style.filter = "blur(1rem)";
+  await sleep(70);
 
 	document.getElementById("favs").style.display="none";
 	document.getElementById("credits").style.display="none";
@@ -31,15 +33,9 @@ async function displayMain() {
 
   document.getElementById("favslink").style.textDecoration="underline";
   document.getElementById("creditslink").style.textDecoration="underline";
-
-  for (let i = 1; i <= 6; i+=2) {
-    document.body.style.filter = "blur(" + (i*0.5).toString +"rem)";
-    await sleep(50);
-    }
-   for (let i = 6; i <= 1; i-=2) {
-    document.body.style.filter = "blur(" + (i*0.5).toString +"rem)";
-    await sleep(50);
-    }
+await sleep(70);
+   document.body.style.filter = "blur(1rem)";
+     await sleep(70);
     document.body.style.filter = "blur(0)";
 }
 
