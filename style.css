@@ -39,7 +39,11 @@ html{
 
   max-height:90%;
   overflow-y: auto;
+  border-radius:0px !important;
 
+}
+img:hover{
+  filter: sepia(10%);
 }
 
 #id{
