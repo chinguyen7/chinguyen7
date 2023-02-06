@@ -10,6 +10,9 @@ overflow: hidden;
   max-height:100vh;
 
 }
+a:hover {
+  text-decoration-color: #808080 !important;
+}
 
 html{
   background-image: url("background.png");
