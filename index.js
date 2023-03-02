@@ -77,4 +77,4 @@ function cacheImages(array)
     }
 }
 
-cacheImages(["background.jpg" ]);
+cacheImages(["background.png" ]);
